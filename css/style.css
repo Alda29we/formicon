@@ -1,3 +1,71 @@
+/* --- Estilos autocad.html --- */
+.autocad-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(211,47,47,0.32) 0%, rgba(0,118,214,0.82) 60%, rgba(255,255,255,0.12) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+.hero > .container .autocad-hero-overlay { z-index: 1; }
+
+.autocad-benefit-card {
+  border-left: 6px solid #d32f2f;
+  background: linear-gradient(90deg,#fff 80%,#f3f7fa 100%);
+  transition: box-shadow 0.3s, transform 0.3s;
+  position: relative;
+}
+.autocad-benefit-card:hover {
+  box-shadow: 0 8px 24px rgba(211,47,47,0.12);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.autocad-type-card {
+  border-top: 5px solid #0076d6;
+  border-radius: 1rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+  background: linear-gradient(120deg, #fff 80%, #e3f2fd 100%);
+}
+.autocad-type-card:hover {
+  box-shadow: 0 10px 32px rgba(0,118,214,0.10);
+  transform: translateY(-6px) scale(1.04);
+}
+
+/* Formulario moderno para autocad */
+.contact-form .input-group-text {
+  background: #f3f7fa;
+  border: none;
+  color: #0076d6;
+  font-size: 1.1rem;
+}
+.contact-form .form-control, .contact-form .form-select {
+  border-radius: 0.5rem;
+  border: 1px solid #e0e7ef;
+}
+.contact-form .form-label {
+  font-weight: 500;
+  color: #1E2A4A;
+}
+.contact-form .btn-coral {
+  font-size: 1.1rem;
+  padding: 0.7rem 0;
+}
+.contact-form .btn-coral i { font-size: 1.1rem; }
+
+/* Navbar y footer detalles para autocad */
+.navbar .nav-link.active {
+  color: #FF7F66 !important;
+  font-weight: 600;
+  border-bottom: 2px solid #FF7F66;
+}
+.navbar .nav-link {
+  transition: color 0.2s, border-bottom 0.2s;
+}
+.navbar .nav-link:hover {
+  color: #0076d6 !important;
+}
+.footer {
+  background: linear-gradient(90deg,#1E2A4A 80%,#0076d6 100%);
+}
 body {
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
