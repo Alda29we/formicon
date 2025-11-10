@@ -297,8 +297,39 @@ footer {
 .stat h3 { margin: 0; }
 
 /* Testimonios */
-.carousel-item blockquote {
-  font-size: 1.05rem;
+.testimonial-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+
+.avatar-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial-quote-icon {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.testimonial-card blockquote p {
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.testimonial-card .blockquote-footer {
+  font-size: 0.9rem;
 }
 
 /* Proyectos carousel */
